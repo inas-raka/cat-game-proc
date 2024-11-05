@@ -1,0 +1,28 @@
+cat_attributes = {
+    "intelligence": 50,
+    "energy": 100,
+    "weight": 20,
+}
+
+print("Welcome to the cat game!")
+
+name = input("Enter the name of your cat:")
+colour = input("Enter the colour of your cat:")
+
+while True:
+  option = input("What would you like to do? \n1. Play with your cat \n2. Train your cat \n3. feed your cat? \n4. Send your cat to sleep? \n5. Show stats?")
+    if option == '1':
+        energy=energy-10, weigh=weight-2
+        pass
+    elif option == '2':
+        energy=energy-20,weight=weight-1,intelligence=intelligence=5
+        pass
+    elif option == '3':
+        energy=energy+15,weight=weight+4
+        pass
+    elif option == '4':
+        energy=energy+30,
+        pass
+    else:
+        print(cat_atttributes)
+        pass
